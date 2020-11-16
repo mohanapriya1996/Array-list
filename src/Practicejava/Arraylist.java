@@ -4,7 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Arraylist {
-	public void ArrayListExample() {
+	private int a;
+	public static int id = 10;
+	
+	public static void test() {
+		
+	}
+	public void test1( ) {
+		
+	}
+	private void ArrayListExample() {
 		List<String> arrayList = new ArrayList<String>();
 		arrayList.add("a");
 		arrayList.add("Benz");
@@ -15,10 +24,5 @@ public class Arraylist {
 
 	}
 
-	public static void main(String[] args) {
-		Arraylist example = new Arraylist();
-		example.ArrayListExample();
-
-	}
 
 }
